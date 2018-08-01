@@ -1,7 +1,7 @@
 'use strict';
 
 export default class Store {
-  
+
   constructor(initialState) {
     this.state = initialState;
     this.listeners = [];
